@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - DB_PATH=/data/risk.db
+      - MIGRATIONS_DIR=/app/migrations
+    volumes:
+      - risk_data:/data
+    restart: unless-stopped
+
+volumes:
+  risk_data:

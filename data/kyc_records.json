@@ -1,0 +1,104 @@
+[
+  {
+    "account_id": "ACC-0001",
+    "verification_level": "basic",
+    "prior_flags": 3,
+    "jurisdiction": "EU"
+  },
+  {
+    "account_id": "ACC-0002",
+    "verification_level": "basic",
+    "prior_flags": 2,
+    "jurisdiction": "CH"
+  },
+  {
+    "account_id": "ACC-0003",
+    "verification_level": "enhanced",
+    "prior_flags": 2,
+    "jurisdiction": "SG",
+    "watchlist_matches": [
+      "PEP Match - Tier 2",
+      "OFAC SDN Watchlist"
+    ]
+  },
+  {
+    "account_id": "ACC-0004",
+    "verification_level": "basic",
+    "prior_flags": 3,
+    "jurisdiction": "US"
+  },
+  {
+    "account_id": "ACC-0005",
+    "verification_level": "basic",
+    "prior_flags": 4,
+    "jurisdiction": "EU"
+  },
+  {
+    "account_id": "ACC-0006",
+    "verification_level": "basic",
+    "prior_flags": 4,
+    "jurisdiction": "SG"
+  },
+  {
+    "account_id": "ACC-0007",
+    "verification_level": "enhanced",
+    "prior_flags": 3,
+    "jurisdiction": "GB"
+  },
+  {
+    "account_id": "ACC-0008",
+    "verification_level": "unverified",
+    "prior_flags": 1,
+    "jurisdiction": "SG",
+    "watchlist_matches": [
+      "PEP Match - Tier 2",
+      "OFAC SDN Watchlist"
+    ]
+  },
+  {
+    "account_id": "ACC-0009",
+    "verification_level": "enhanced",
+    "prior_flags": 5,
+    "jurisdiction": "CH"
+  },
+  {
+    "account_id": "ACC-0010",
+    "verification_level": "enhanced",
+    "prior_flags": 2,
+    "jurisdiction": "US"
+  },
+  {
+    "account_id": "ACC-0011",
+    "verification_level": "unverified",
+    "prior_flags": 2,
+    "jurisdiction": "SG"
+  },
+  {
+    "account_id": "ACC-0012",
+    "verification_level": "enhanced",
+    "prior_flags": 0,
+    "jurisdiction": "GB"
+  },
+  {
+    "account_id": "ACC-0013",
+    "verification_level": "basic",
+    "prior_flags": 0,
+    "jurisdiction": "SG",
+    "watchlist_matches": [
+      "PEP Match - Tier 2",
+      "OFAC SDN Watchlist"
+    ]
+  },
+  {
+    "account_id": "ACC-0014",
+    "verification_level": "unverified",
+    "prior_flags": 4,
+    "jurisdiction": "GB"
+  },
+  {
+    "account_id": "ACC-0015",
+    "verification_level": "enhanced",
+    "prior_flags": 4,
+    "jurisdiction": "US"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CASE-0001",
+    "account_id": "ACC-0001",
+    "status": "closed",
+    "opened_at": "2026-06-11T10:26:07Z",
+    "summary": "KYC watchlist match flagged for review."
+  },
+  {
+    "id": "CASE-0002",
+    "account_id": "ACC-0003",
+    "status": "escalated",
+    "opened_at": "2026-06-29T17:19:53Z",
+    "summary": "Large transfer from western union merchant."
+  },
+  {
+    "id": "CASE-0003",
+    "account_id": "ACC-0005",
+    "status": "escalated",
+    "opened_at": "2026-06-28T01:27:13Z",
+    "summary": "Large transfer from western union merchant."
+  },
+  {
+    "id": "CASE-0004",
+    "account_id": "ACC-0007",
+    "status": "open",
+    "opened_at": "2026-07-01T01:12:52Z",
+    "summary": "Multiple transactions at cryptocurrency exchange merchant."
+  },
+  {
+    "id": "CASE-0005",
+    "account_id": "ACC-0009",
+    "status": "open",
+    "opened_at": "2026-06-20T02:43:47Z",
+    "summary": "High velocity transfer activity detected."
+  },
+  {
+    "id": "CASE-0006",
+    "account_id": "ACC-0011",
+    "status": "closed",
+    "opened_at": "2026-06-16T02:51:08Z",
+    "summary": "Prior flags count exceeded threshold."
+  },
+  {
+    "id": "CASE-0007",
+    "account_id": "ACC-0013",
+    "status": "escalated",
+    "opened_at": "2026-06-25T21:13:13Z",
+    "summary": "Prior flags count exceeded threshold."
+  },
+  {
+    "id": "CASE-0008",
+    "account_id": "ACC-0015",
+    "status": "escalated",
+    "opened_at": "2026-07-03T07:31:23Z",
+    "summary": "Prior flags count exceeded threshold."
+  }
+]
