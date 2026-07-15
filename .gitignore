@@ -1,0 +1,7 @@
+# Go build and test artifacts
+__debug_bin*
+*.test
+*.out
+/bin/
+/dist/
+.DS_Store

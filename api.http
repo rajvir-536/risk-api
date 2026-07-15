@@ -1,0 +1,29 @@
+### Variables
+@baseUrl = http://localhost:8080
+@caseId = CASE-0001
+@accountId = ACC-0001
+
+### 1. Health Check
+GET {{baseUrl}}/healthz
+
+### 2. Retrieve Case by ID
+GET {{baseUrl}}/cases/{{caseId}}
+
+### 3. Retrieve KYC Record by Account ID
+GET {{baseUrl}}/accounts/{{accountId}}/kyc
+
+### 4. Retrieve Account Transactions (All)
+GET {{baseUrl}}/accounts/{{accountId}}/transactions
+
+### 5. Retrieve Account Transactions (Filtered by since_days)
+GET {{baseUrl}}/accounts/{{accountId}}/transactions?since_days=30
+
+### 6. Raise Risk Flag
+POST {{baseUrl}}/flags
+Content-Type: application/json
+
+{
+  "account_id": "{{accountId}}",
+  "reason": "Suspicious transaction volume",
+  "raised_by": "vscode-rest-client"
+}

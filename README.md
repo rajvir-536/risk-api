@@ -36,6 +36,26 @@ PORT=9000 go run ./cmd/api
 
 ---
 
+## Interactive API Testing (REST Client)
+
+For an interactive, IDE-integrated testing experience, you can run requests directly from your editor using the pre-configured [api.http](./api.http) file.
+
+### Prerequisites
+Install the **REST Client** extension in your VS Code / Antigravity IDE:
+- **Extension Name:** REST Client
+- **Publisher:** Huachao Mao (Extension ID: `humao.rest-client`)
+
+### How to Use:
+1. Start the API server:
+   ```bash
+   go run ./cmd/api
+   ```
+2. Open the [api.http](./api.http) file.
+3. Click the clickable **Send Request** text link that appears above any endpoint inside the file.
+4. The response headers and body will display in a split pane on the right-hand side.
+
+---
+
 ## API Documentation & Example Curl Commands
 
 ### 1. Health Check
